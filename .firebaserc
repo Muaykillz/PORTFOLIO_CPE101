@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "mudev-844b7"
+  },
+  "targets": {
+    "mudev-844b7": {
+      "hosting": {
+        "mudev-portfolio": [
+          "mudev-portfolio"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
