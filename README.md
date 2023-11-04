@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![Website Preview]([/screenshot.png](https://i.ibb.co/bL25XcR/Screenshot-2023-11-04-221407.png)) 
+![Website Preview](https://i.ibb.co/bL25XcR/Screenshot-2023-11-04-221407.png) 
 
 Welcome to my portfolio website! This is a showcase of my work as a web developer, designed and developed using HTML, CSS, and JavaScript. Feel free to explore the website, and learn more about me and my projects.
 
