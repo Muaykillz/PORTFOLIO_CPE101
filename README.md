@@ -9,14 +9,10 @@ Welcome to my portfolio website! This is a showcase of my work as a web develope
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
-You can visit the live website [here](https://your-website-url.com/).
+You can visit the live website [here](https://mudev-portfolio.web.app/).
 
 ## Features
 
