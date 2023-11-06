@@ -18,9 +18,8 @@ You can visit the live website [here](https://mudev-portfolio.web.app/).
 
 ## Features
 
-- Responsive design for a seamless experience on various devices.
 - About Me: A brief introduction to who I am and what I do.
-- Portfolio: A collection of my projects with descriptions and links.
+- Skills: A collection of my skills with descriptions and links.
 - Contact: A way for visitors to get in touch with me.
 
 ## Technologies Used
