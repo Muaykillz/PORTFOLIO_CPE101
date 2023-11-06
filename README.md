@@ -13,6 +13,7 @@ Welcome to my portfolio website! This is a showcase of my work as a web develope
 ## Demo
 
 You can visit the live website [here](https://mudev-portfolio.web.app/).
+*but now it is not support for responsive.*
 
 ## Features
 
