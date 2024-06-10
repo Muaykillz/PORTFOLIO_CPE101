@@ -370,9 +370,12 @@ p {
 
 .about-me .edu-box {
     margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: space-between;
     gap: 72px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .edu-box .item {

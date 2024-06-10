@@ -8,6 +8,7 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+        /* margin-top: -16px; */
     }
 
     .hero .image-profile {
@@ -109,11 +110,6 @@
         padding: 0px 6%;
     }
 
-    .about-me .edu-box {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 48px;
-    }
-
     /* My Skills */
     .my-skills {
         text-align: center;
@@ -144,7 +140,7 @@
     /* Hero */
     .hero {
         gap: 40px;
-        margin-top: 160px;
+        margin-top: 100px;
     }
 
     .hero .image-profile {
@@ -204,18 +200,17 @@
     /* Container */
     .container {
         gap: 180px;
-        padding: 0px 40px;
+        padding: 0px 32px;
     }
 
     /* About me */
     .about-me {
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .about-me p {
         font-size: 12px;
     }
     .about-me .edu-box {
-        grid-template-columns: repeat(1, 1fr);
         gap: 48px;
     }
     .item p.school-name {

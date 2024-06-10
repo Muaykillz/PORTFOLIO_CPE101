@@ -24,7 +24,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
         target.classList.add("active");
 
         // Define scroll positions for each section
-        const scroll_List = { 'hero': heroPosition * 0.84, 'about_me': aboutMePosition * 0.84, 'my_skills': mySkillsPosition * 0.94, 'contact_me': contactMePosition * 1.2 };
+        const scroll_List = { 'hero': heroPosition * 0.84, 'about_me': aboutMePosition * 0.84, 'my_skills': mySkillsPosition * 0.97, 'contact_me': contactMePosition * 1.2 };
 
         // Smooth scroll to the target section
         window.scrollTo({
