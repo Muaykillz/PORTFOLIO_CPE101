@@ -30,7 +30,7 @@ window.addEventListener("scroll", function () {
 });
 
 
-function toggleDarkMode() {
+function switchMode() {
     const root = document.documentElement;
     const themeIcon = document.getElementById('theme-icon');
     const isLightMode = getComputedStyle(root).getPropertyValue('--primary-color') == '#000';
@@ -60,6 +60,6 @@ function toggleDarkMode() {
 }
 
 const toggleButton = document.getElementById('theme-toggle');
-toggleButton.addEventListener('click', toggleDarkMode);
+toggleButton.addEventListener('click', switchMode);
 
 

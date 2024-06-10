@@ -226,6 +226,11 @@ p {
     line-height: normal;
 }
 
+.quote a {
+    text-decoration: underline;
+    text-decoration-color: var(--highlight-color);
+}
+
 
 
 /* About me */
