@@ -1,5 +1,5 @@
 /* Responsive Design */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1200px) {
 
     /* Hero */
     .hero {
@@ -127,7 +127,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
 
     /* Global */
     h2 {
