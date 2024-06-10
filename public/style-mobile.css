@@ -1,0 +1,257 @@
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    /* Hero */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero .image-profile {
+        width: 400px;
+        height: 400px;
+        flex-shrink: 0;
+        overflow: hidden;
+        padding: 18px;
+        background-color: var(--hero-bg-color);
+        background-image: var(--hero-border);
+        border-radius: 400px;
+    }
+
+    .image-profile .img-box img {
+        top: -64px;
+    }
+
+    /* Container */
+    .container {
+        gap: 180px;
+    }
+
+    /* Navbar */
+    .icon-menu {
+        display: flex;
+        z-index: 101;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: -0%;
+        left: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--background-color-m);
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: 0.3s;
+        justify-content: start;
+        z-index: 100;
+        opacity: 0;
+        padding-top: 110px;
+
+        visibility: hidden;
+    }
+
+    .nav-menu li {
+        margin: 16px 0;
+    }
+
+    .nav-item-desktop {
+        display: none;
+    }
+
+    .check-icon:checked~.nav-menu {
+        top: 0;
+        opacity: 1;
+    }
+
+    .nav-menu li {
+        margin: 16px 0;
+    }
+
+    .nav-line {
+        display: block;
+        width: 80%;
+        height: 1px;
+        background-color: var(--primary-color);
+        margin: 0 auto;
+        opacity: 0.1;
+    }
+
+    .nav-item-desktop {
+        display: none;
+    }
+
+    .nav-item-mobile {
+        display: block;
+    }
+
+    .theme-switch {
+        justify-content: center;
+        padding: 16px 24px;
+        border: dashed 1px #80808080;
+        border-radius: 8px;
+    }
+
+    .theme-text {
+        font-size: 18px;
+    }
+
+    #theme-toggle-mobile {
+        margin-top: 32px;
+    }
+
+    /* About me */
+    .about-me .paragraph {
+        padding: 0px 6%;
+    }
+
+    .about-me .edu-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+    }
+
+    /* My Skills */
+    .my-skills {
+        text-align: center;
+        padding: 0px
+    }
+
+    .my-skills .skills-box {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+
+    /* Contact me */
+    .contact-me .contact-box {
+        gap: 48px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    /* Global */
+    h2 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    /* Hero */
+    .hero {
+        gap: 40px;
+        margin-top: 160px;
+    }
+
+    .hero .image-profile {
+        width: 240px;
+        height: 240px;
+        padding: 12px;
+        border-radius: 240px;
+    }
+
+    .image-profile .img-box img {
+        top: -36px;
+    }
+
+    .hero .describe-box p {
+        color: #5A5A5A;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: var(--p-weight);
+        line-height: normal;
+    }
+
+    .hero .describe-box h2 {
+        font-size: 28px;
+    }
+
+    .hero .describe-box .loader h2 {
+        font-size: 28px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-right: 2px;
+        border-right: 2px solid transparent;
+        animation: typing 1.2s steps(20, end), blink-caret 1s step-end infinite;
+    }
+
+    .describe-box .quote {
+        margin-top: 20px;
+        border-left: 6px solid var(--highlight-color);
+        padding: 16px 28px;
+    }
+
+    .quote h3 {
+        color: var(--primary-color);
+        font-size: 18px;
+        font-style: italic;
+        font-weight: var(--h3-weight);
+        line-height: normal;
+    }
+
+    .quote a {
+        text-decoration: underline;
+        text-decoration-color: var(--highlight-color);
+    }
+
+
+
+    /* Container */
+    .container {
+        gap: 180px;
+        padding: 0px 40px;
+    }
+
+    /* About me */
+    .about-me {
+        margin-top: 40px;
+    }
+    .about-me p {
+        font-size: 12px;
+    }
+    .about-me .edu-box {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 48px;
+    }
+    .item p.school-name {
+        font-size: 16px;
+    }
+
+    /* My Skills */
+    .my-skills .skills-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+    .skills-box .item {
+        width: 100%;
+        height: 160px;
+        padding: 16px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.05);
+    }
+    .item .skill-img {
+        width: 90px;
+        height: 90px;
+    }
+    .item .skill-name {
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    /* Contact me */
+    .contact-me {
+        padding: 0px;
+    }
+    .contact-me .contact-box {
+        gap: 36px;
+    }
+    .item .contact-img {
+        width: 52px;
+        height: 52px;
+        padding: 8px;
+    }
+}

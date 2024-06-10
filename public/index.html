@@ -8,6 +8,7 @@
 
     <link rel="shortcut icon" href="./assets/tab-logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +22,34 @@
     <!-- Navbar -->
     <nav class="navbar">
         <h1>Mudev</h1>
-
+        <input hidden="" class="check-icon" id="check-icon" name="check-icon" type="checkbox">
+        <label class="icon-menu" for="check-icon">
+            <div class="bar bar--1"></div>
+            <div class="bar bar--2"></div>
+            <div class="bar bar--3"></div>
+        </label>
         <ul class="nav-menu">
             <li class="navitem"><a href=".hero" class="active">Home</a></li>
+            <li class="nav-line"></li>
             <li class="navitem"><a href=".about_me">About</a></li>
+            <li class="nav-line"></li>
             <li class="navitem"><a href=".my_skills">Skills</a></li>
+            <li class="nav-line"></li>
             <li class="navitem"><a href=".contact_me">Contact</a></li>
-            <li><span class="line-span-nav"></span></li>
-            <li id="theme-toggle">
-                <img src="./assets/light.svg" alt="light mode" id="theme-icon">
+            <li class="nav-line"></li>
+            <li class="nav-item-desktop"><span class="line-span-nav"></span></li>
+            <li class="navitem nav-item-desktop" id="theme-toggle-desktop">
+                <img src="./assets/light.svg" alt="light mode" id="theme-icon-desktop">
+            </li>
+            <li class="navitem nav-item-mobile" id="theme-toggle-mobile">
+                <div class="theme-switch">
+                    <img src="./assets/light.svg" alt="light mode" id="theme-icon-mobile">
+                    <span class="theme-text">Appearance</span>
+                </div>
             </li>
         </ul>
     </nav>
+
 
     <!-- Container -->
     <div class="container">
@@ -52,10 +69,18 @@
                 <p>Line Developer & AI developer</p>
 
                 <div class="quote">
-                    <a href="https://drive.google.com/file/d/1EUzDxtphLqWc12WTOeErF1FswBk91vkL/view"><h3>"👉🏻 Please click to see my portfolio!"</h3></a>
+                    <a href="https://drive.google.com/file/d/1EUzDxtphLqWc12WTOeErF1FswBk91vkL/view" target="_blank">
+                        <h3>"👉🏻 Please click to see my portfolio!"</h3>
+                    </a>
                 </div>
             </div>
         </div>
+
+        <!-- Know me more -->
+        <div class="scroll-invite">
+            <p>Scroll down to know me better</p><p>↓</p>
+        </div>
+        
 
         <!-- About me -->
         <div class="about-me" id="about_me">
@@ -190,7 +215,7 @@
             <div class="contact-box">
                 <div class="item">
                     <div class="contact-img">
-                        <a href="https://github.com/Muaykillz">
+                        <a href="https://github.com/Muaykillz" target="_blank">
                             <img src="./assets/ct1-l.svg">
                         </a>
                     </div>
@@ -198,7 +223,7 @@
 
                 <div class="item">
                     <div class="contact-img">
-                        <a href="https://www.facebook.com/profile.php?id=100004185094386">
+                        <a href="https://www.facebook.com/profile.php?id=100004185094386" target="_blank">
                             <img src="./assets/ct2-l.svg">
                         </a>
                     </div>
@@ -206,7 +231,7 @@
 
                 <div class="item">
                     <div class="contact-img">
-                        <a href="https://www.instagram.com/muay_killz/">
+                        <a href="https://www.instagram.com/muay_killz/" target="_blank">
                             <img src="./assets/ct3-l.svg">
                         </a>
                     </div>
@@ -214,7 +239,7 @@
 
                 <div class="item">
                     <div class="contact-img">
-                        <a href="https://line.me/ti/p/zVJiwWMuQ6">
+                        <a href="https://line.me/ti/p/zVJiwWMuQ6" target="_blank">
                             <img src="./assets/ct4-l.svg">
                         </a>
                     </div>
@@ -222,14 +247,14 @@
 
                 <div class="item">
                     <div class="contact-img">
-                        <a href="https://medium.com/@mzgamer3360">
+                        <a href="https://medium.com/@mzgamer3360" target="_blank">
                             <img src="./assets/ct5-l.svg">
                         </a>
                     </div>
                 </div>
             </div>
 
-            <p class="credit">© Mudev 2023</p>
+            <p class="credit">© Mudev</p>
         </div>
     </div>
 

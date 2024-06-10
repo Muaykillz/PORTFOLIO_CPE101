@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "mudev-portfolio",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
