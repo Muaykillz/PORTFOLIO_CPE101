@@ -29,6 +29,7 @@
     /* Container */
     .container {
         gap: 180px;
+        padding: 0px 60px;
     }
 
     /* Navbar */
@@ -117,8 +118,45 @@
     }
 
     .my-skills .skills-box {
-        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
         gap: 32px;
+    }
+
+    /* Experiences */
+    .experiences {
+        & p {
+            display: block;
+        }
+    }
+    .exp-box .item {
+        width: 288px;
+        height: 192px;
+        border-radius: 16px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .exp-box .item .content {
+        line-height: 24px;
+        padding: 20px;
+
+        & h2 {
+            font-size: 28px;
+        }
+
+        & h4 {
+            font-size: 18px;
+        }
+
+        & p {
+            display: none;
+            text-align: start;
+            margin-top: 8px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 300;
+            color: #f1f1f1;
+        }
     }
 
     /* Contact me */
@@ -133,6 +171,7 @@
     h2 {
         font-size: 28px;
     }
+
     p {
         font-size: 12px;
     }
@@ -207,43 +246,51 @@
     .about-me {
         margin-top: 20px;
     }
+
     .about-me p {
         font-size: 12px;
     }
+
     .about-me .edu-box {
         gap: 48px;
     }
+
     .item p.school-name {
         font-size: 16px;
     }
 
     /* My Skills */
     .my-skills .skills-box {
-        grid-template-columns: repeat(2, 1fr);
         gap: 32px;
     }
+
     .skills-box .item {
-        width: 100%;
         height: 160px;
         padding: 16px;
         box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.05);
     }
+
     .item .skill-img {
         width: 90px;
         height: 90px;
     }
+
     .item .skill-name {
         font-weight: 700;
         font-size: 12px;
     }
 
+
+
     /* Contact me */
     .contact-me {
         padding: 0px;
     }
+
     .contact-me .contact-box {
         gap: 36px;
     }
+
     .item .contact-img {
         width: 52px;
         height: 52px;

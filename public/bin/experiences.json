@@ -1,0 +1,80 @@
+[
+    {
+        "title": "AGTech AI 2023",
+        "award": "The best improvement award",
+        "description": "Participated in AgTech AI Incubation 2023, developed PLOOK app with AI for crop planning, won 100,000 THB and Best Improvement award.",
+        "image": "./assets/exp-img/AGTECH.jpg"
+    },
+    {
+        "title": "Hack Me(d) 2023",
+        "award": "1st Runner-up award",
+        "description": "Competed in HACK ME(d) X SOTI 2023 with KTD project using AI to analyze children's drawings for psychological assessment, won 1st Runner Up.",
+        "image": "./assets/exp-img/Hack Me(d).jpeg"
+    },
+    {
+        "title": "DIS Gen3",
+        "award": "Participation",
+        "description": "Participated in Digital Innovation Sandbox 3, developing MEEPROB using PhayaThaiBERT and Bard for business opportunities.",
+        "image": "./assets/exp-img/DIS 3.jpeg"
+    },
+    {
+        "title": "CRAD Hack 2024",
+        "award": "Participation",
+        "description": "Participating in the CAI Retail Action Detection Hackathon 2023, I developed an AI system using YOLOv8m and VideoMAE for real-time retail behavior analysis.",
+        "image": "./assets/exp-img/CRAD Hack.jpeg"
+    },
+    {
+        "title": "IYIA 2022",
+        "award": "Gold award",
+        "description": "The IYIA is an international youth innovation competition in Bali. I won a gold medal for predicting Chokanan mango sweetness levels using an AI system.",
+        "image": "./assets/exp-img/IYIA.png"
+    },
+    {
+        "title": "ISIIDS 2022",
+        "award": "Silver award",
+        "description": "The ISIIDS is an innovation competition for sustainability. I won a silver medal for predicting Chokanan mango sweetness levels using an AI system.",
+        "image": "./assets/exp-img/ISIIDS 2022.png"
+    },
+    {
+        "title": "ELEMENTZ Fair",
+        "award": "Bronze award",
+        "description": "The 23rd International ELEMENTZ Fair is a science competition in Singapore. I received a commendation award for my AI system predicting Chokanan mango sweetness levels.",
+        "image": "./assets/exp-img/ELEMENTZ Fair.png"
+    },
+    {
+        "title": "TJ-SIF 2022",
+        "award": "Present to president",
+        "description": "Presented my project to the Prime Minister on December 21, 2022, at TJ-SIF 2022 in Chiang Rai, Thailand.",
+        "image": "./assets/exp-img/TJ-SIF 2022.png"
+    },
+    {
+        "title": "TJ-SIF 2022",
+        "award": "Pre-presentation",
+        "description": "Represented Thailand in the press conference for TJ-SIF 2022 on December 17, 2022, showcasing my AI system for predicting Chokanan mango sweetness levels.",
+        "image": "./assets/exp-img/TJ-SIF 2.png"
+    },
+    {
+        "title": "CAI Hackathon",
+        "award": "2rd Runner-up award",
+        "description": "Won 2nd place at the CAI Club Hackathon 2022 for developing Ling Jak Jak Linebot monkey pox patients, earning a 3,000 THB prize.",
+        "image": "./assets/exp-img/CAI Hackathon.png"
+    },
+    {
+        "title": "GPSC 2022",
+        "award": "Silver award",
+        "description": "Selected as one of the top 30 teams in GPSC YSI Season 5 for AI predicting Chokanan mango sweetness, competing on January 21-22, 2023.",
+        "image": "./assets/exp-img/GPSC 2022.png"
+    },
+    {
+        "title": "NSTDA",
+        "award": "NECTEC Research Trainning",
+        "description": "Selected to join NECTEC and SEC for summer research at NSTDA from March 13 to May 9, 2022, focusing on Biometric Monitoring System and Biometric Authentication.",
+        "image": "./assets/exp-img/NSTDA.png"
+    },
+    {
+        "title": "PEA Line bot",
+        "award": "Developing Line bot for PEA ",
+        "description": "Collaborated to develop and design a Line bot for Provincial Electricity Authority, aiding in electricity usage notifications and payment details.",
+        "image": "./assets/exp-img/PEA Line bot.png"
+    }
+]
