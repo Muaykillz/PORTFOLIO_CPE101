@@ -561,12 +561,14 @@ p {
 }
 
 
-.exp-box .item:hover .black-filter {
+.exp-box .item:hover .black-filter,
+.exp-box .item:active .black-filter {
     background-color: rgba(0, 0, 0, 0.28);
     border: solid 1px rgba(255, 255, 255, 0.48);
 }
 
-.exp-box .item:hover .content {
+.exp-box .item:hover .content,
+.exp-box .item:active .content {
 
     & h4 {
         color: #5EE55E;
@@ -577,7 +579,8 @@ p {
     }
 }
 
-.exp-box .item:hover img {
+.exp-box .item:hover img,
+.exp-box .item:active img {
     filter: blur(12px)
 }
 .see-more {
@@ -591,7 +594,8 @@ p {
     cursor: pointer;
     display: none;
 }
-.see-more:hover {
+.see-more:hover,
+.see-more:active {
     filter: brightness(1.1);
 }
 
