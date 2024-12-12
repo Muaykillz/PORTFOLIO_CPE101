@@ -417,6 +417,8 @@ p {
 .my-skills {
     text-align: center;
     padding: 0px 100px;
+    position: relative;
+    top: 0;
 }
 
 .my-skills .skills-box {

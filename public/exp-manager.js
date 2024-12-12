@@ -14,7 +14,7 @@ async function loadExperiences() {
         const expBox = document.getElementById('exp-box');
         const seeMoreButton = document.getElementById('see-more');
         let currentIndex = 0;
-        
+
         // Determine the limit based on the device width
         const deviceWidth = window.innerWidth;
         const limit = deviceWidth <= 480 ? 4 : deviceWidth <= 768 ? 6 : 9;
@@ -39,7 +39,9 @@ async function loadExperiences() {
                     <div class="black-filter"></div>
                     <img src="${exp.image}" alt="">
                 `;
-
+                item.addEventListener('touchstart', function () {
+                    item.classList.toggle('active');
+                });
                 expBox.appendChild(item);
             }
         }
@@ -53,7 +55,7 @@ async function loadExperiences() {
             seeMoreButton.style.display = 'block';
         }
 
-        seeMoreButton.addEventListener('click', function() {
+        seeMoreButton.addEventListener('click', function () {
             if (seeMoreButton.textContent === 'See More') {
                 displayItems(0, data.length);
                 seeMoreButton.textContent = 'See Less';

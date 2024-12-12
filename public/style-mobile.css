@@ -107,6 +107,9 @@
     }
 
     /* About me */
+    .about-me {
+        padding: 0px 20px;
+    }
     .about-me .paragraph {
         padding: 0px 6%;
     }

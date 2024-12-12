@@ -5,6 +5,7 @@ navbar.classList.add('sticky');
 // Define positions of different sections
 const heroPosition = 0;
 const aboutMePosition = document.querySelector('.about-me').offsetTop;
+const experiencePosition = document.querySelector('.experiences').offsetTop;
 const mySkillsPosition = document.querySelector('.my-skills').offsetTop;
 const contactMePosition = document.querySelector('.contact-me').offsetTop;
 
@@ -24,8 +25,14 @@ document.querySelectorAll('nav a').forEach(anchor => {
         target.classList.add("active");
 
         // Define scroll positions for each section
-        const scroll_List = { 'hero': heroPosition * 0.84, 'about_me': aboutMePosition * 0.84, 'my_skills': mySkillsPosition * 0.97, 'contact_me': contactMePosition * 1.2 };
-
+        const scroll_List_desktop = { 'hero': heroPosition, 'about_me': aboutMePosition - 100, 'experiences': experiencePosition - 100, 'my_skills': mySkillsPosition + 600, 'contact_me': contactMePosition + 100 };
+        const scroll_list_ipad = { 'hero': heroPosition, 'about_me': aboutMePosition - 100, 'experiences': experiencePosition - 100, 'my_skills': mySkillsPosition + 600, 'contact_me': contactMePosition + 500 };
+        const scroll_List_mobile = { 'hero': heroPosition, 'about_me': aboutMePosition - 100, 'experiences': experiencePosition - 100, 'my_skills': mySkillsPosition + 900, 'contact_me': contactMePosition + 600 };
+        
+        // Define scroll list based on screen width
+        const screenWidth = window.innerWidth;
+        let scroll_List = screenWidth <= 480 ? scroll_List_mobile : screenWidth <= 768 ? scroll_list_ipad : scroll_List_desktop;
+        console.log(scroll_List)
         // Smooth scroll to the target section
         window.scrollTo({
             top: scroll_List[targetId],
@@ -37,7 +44,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 // Show/hide scroll invite based on scroll position
 window.addEventListener("scroll", function () {
     var scrollInvite = document.querySelector('.scroll-invite');
-
+    console.log(window.scrollY);
     if (window.scrollY > 60) {
         scrollInvite.classList.add('fade-out');
     } else {

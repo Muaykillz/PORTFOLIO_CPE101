@@ -1,5 +1,11 @@
 [
     {
+        "title": "Upstage AI Hack",
+        "award": "15 Finalist teams",
+        "description": "Developed Contract Management System with LLM & RAG technology. Selected as Thailand representative for the finals by Upstage company.",
+        "image": "./assets/exp-img/Upstage AI Hack.JPG"
+    },
+    {
         "title": "AGTech AI 2023",
         "award": "The best improvement award",
         "description": "Participated in AgTech AI Incubation 2023, developed PLOOK app with AI for crop planning, won 100,000 THB and Best Improvement award.",
@@ -8,7 +14,7 @@
     {
         "title": "Hack Me(d) 2023",
         "award": "1st Runner-up award",
-        "description": "Competed in HACK ME(d) X SOTI 2023 with KTD project using AI to analyze children's drawings for psychological assessment, won 1st Runner Up.",
+        "description": "Developed Enterprise Contract Management System with LLM & RAG technology. Selected as Thailand representative for the finals by Korea's leading AGI company.",
         "image": "./assets/exp-img/Hack Me(d).jpeg"
     },
     {
